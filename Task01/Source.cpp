@@ -16,7 +16,7 @@ int main()
         }
 
         window.clear();
-        flower.draw();  // Assuming draw() handles all flower parts
+        flower.draw();  
         window.display();
     }
 }
