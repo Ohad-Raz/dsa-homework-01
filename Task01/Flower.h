@@ -18,7 +18,7 @@ private:
 
     sf::CircleShape center;
     sf::CircleShape petal1, petal2, petal3, petal4;
-    sf::CircleShape petal5, petal6, petal7, petal8; // new diagonals
+    sf::CircleShape petal5, petal6, petal7, petal8;
     sf::RectangleShape vine;
     sf::ConvexShape leaf;
 
@@ -27,7 +27,7 @@ private:
 
     sf::CircleShape Sun;
     float sunOffsetX = 0.f;
-    sf::Texture sunTexture;
+    sf::Texture sunTexture, moonTexture;
 
     sf::RectangleShape skyBackground;
     sf::RectangleShape groundBackground;
@@ -36,4 +36,7 @@ private:
 
     static const int starCount = 20;
     sf::CircleShape stars[starCount];
+
+    sf::Clock movementClock;  
+
 };
