@@ -18,6 +18,7 @@ private:
 
     sf::CircleShape center;
     sf::CircleShape petal1, petal2, petal3, petal4;
+    sf::CircleShape petal5, petal6, petal7, petal8; // new diagonals
     sf::RectangleShape vine;
     sf::ConvexShape leaf;
 
