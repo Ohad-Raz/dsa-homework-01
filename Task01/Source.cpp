@@ -3,7 +3,7 @@
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode({ 200, 300 }), "Animated Flower");
+    sf::RenderWindow window(sf::VideoMode({ 400, 600 }), "Animated Flower");
 
     Flower flower(&window);
 

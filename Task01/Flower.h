@@ -28,10 +28,11 @@ private:
     float sunOffsetX = 0.f;
     sf::Texture sunTexture;
 
-    sf::Color skyColor;
     sf::RectangleShape skyBackground;
+    sf::RectangleShape groundBackground;
+    sf::Color skyColor;
+    sf::Color groundColor;
 
     static const int starCount = 20;
     sf::CircleShape stars[starCount];
-
 };
