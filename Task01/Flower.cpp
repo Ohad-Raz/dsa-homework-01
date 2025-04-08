@@ -47,9 +47,9 @@ Flower::Flower(sf::RenderWindow* win) : window(win) {
     Sun.setPosition({ 30.f, 30.f });
 
     if (!sunTexture.loadFromFile("resources/animated_sun.png"))
-        std::cout << "Failed to load sun texture\n";
+        std::cout << "Failed to load sun texture"<<std::endl;
     if (!moonTexture.loadFromFile("resources/animated_moon.png"))
-        std::cout << "Failed to load moon texture\n";
+        std::cout << "Failed to load moon texture" << std::endl;
 
     Sun.setTexture(&sunTexture);
     Sun.setFillColor(sf::Color::White);
@@ -89,7 +89,7 @@ void Flower::draw() {
         clock.restart();
     }
 
-    //  Time-based sun/moon movement
+    //  Time based sun/moon movement
     float delta = movementClock.restart().asSeconds();  // frame delta
     sunOffsetX += 50.f * delta;  // 50 pixels per second
     if (sunOffsetX > 220.f) {
