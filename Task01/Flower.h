@@ -3,7 +3,7 @@
 
 class Flower {
 public:
-    Flower(sf::RenderWindow* win);
+    Flower(sf::RenderWindow* window);
     void draw();
 
 private:
