@@ -1,6 +1,6 @@
 Animated Flower 🌸
 
-This project is shows an animated flower built using SFML in C++.
+This project shows an animated flower built using SFML in C++.
 
  Features
 - Animated sun and moon with transitions
